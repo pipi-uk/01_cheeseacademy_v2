@@ -1,0 +1,291 @@
+/* ここから下に記載していく */
+
+/* ヘッダー全体 */
+.header_a {
+  background-color: white;
+}
+.container{
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+
+/* ロゴエリア */
+.logo_header{
+  display: block;
+  margin-left: 50px;
+}
+.logo_header img{
+  height: 40px;
+  vertical-align: bottom;
+}
+
+/* ナビエリア */
+.navi {
+  margin-left: auto;
+}
+
+.list_navi{
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+ }
+
+li+li{
+  margin-left: 40px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.btn_contact{
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+/* メインビジュアル */
+.hero{
+  position: relative;
+  margin-top: 30px;
+}
+.hero img{
+  width: 1200px;
+  width: 100%;
+}
+.hero .copy  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 33px;
+  color: white;
+  font-weight: bold;
+}
+.hero .subcopy{
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+/* チーズアカデミーについてABOUT*/
+.area_photo{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  width: 1200px;
+  width: 100%;
+}
+
+/* COUSE */
+.couse{
+  display: flex;
+  justify-content: center;
+  background:whitesmoke;
+  margin: 30px;
+}
+
+.couse  img {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
+}
+.couse .couse_sub {
+  margin-left: 50px;
+  width: 480px;
+}
+.couse_text{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  font-size: 24px;
+}
+
+.couse_sub{
+  color: red;
+  font-weight: bold;
+  font-size: medium;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.couse_text{
+  color: black;
+  font-size: small;
+  text-align: left;
+}
+
+
+
+/* NEWS */
+.item-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.item-list .item {
+  width: 31%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.item-list .item .image {
+  margin: 0;
+  padding: 0;
+}
+.item-list .item .image img {
+  width: 100%;
+}
+.item-list .item .title {
+  margin: 10px 0 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.item-list .item .description {
+  margin: 5px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+
+/* 全体フォント */
+.title1{
+  color: green;
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.title2{
+  color: orangered;
+  font-size: small;
+  text-align: center;
+}
+
+
+
+
+
+.area_text{
+  color: blue;
+  font-size: small;
+  text-align: center;
+}
+
+/* Access */
+.access{
+  text-align: center;
+}
+
+
+/* CONTACTフォーム */
+.Form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+@media screen and(min-width:481px) {
+}
+
+
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and(min-width:481px) {
+}
+
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and(min-width:481px) {
+}
+
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #5bc8ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
